@@ -165,6 +165,10 @@ Author URL: https://themeforest.net/user/codesymbol/
         color: #424242;
     }
 
+    h1 {
+        color:grey;
+    }
+
     .portfolio.horizontal-slider article .overlay .categories,
     .portfolio.grid article .overlay .categories,
     .project .cover .overlay .categories {

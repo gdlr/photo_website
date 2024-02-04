@@ -61,6 +61,7 @@ Author URL: https://themeforest.net/user/codesymbol/
         }
         p {
             -webkit-font-smoothing: antialiased;
+            font-size:18px;
         }
         a {
 
@@ -102,6 +103,11 @@ Author URL: https://themeforest.net/user/codesymbol/
         	line-height: 20px;
         }
 
+        .square-img{
+            object-fit: cover;
+            aspect-ratio: 1/1;
+        }
+
     /* ---------------------- */
     /* Defaults               */
     /* ---------------------- */
@@ -133,6 +139,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             body:not(.fullscreen) main .inner-container {
                 width: 1100px;
                 margin: 0 auto;
+                position:relative;
             }
             body:not(.fullscreen) main .inner-container::after {
                 content: "";
@@ -150,6 +157,8 @@ Author URL: https://themeforest.net/user/codesymbol/
                 max-width: 100%;
                 height: auto;
             }
+
+
             main dl {
                 margin-bottom: 20px;
             }
@@ -465,6 +474,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             top: 10px;
             left: 10px;
             display: block;
+            z-index:1000;
         }
         header .logo a {
             display: inline-block;
@@ -1570,7 +1580,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             display: block;
             float: left;
             text-align: center;
-            padding: 25px;
+            padding: 10px;
         }
         .portfolio.grid.two-columns article {
             width: 50%;
@@ -1619,11 +1629,18 @@ Author URL: https://themeforest.net/user/codesymbol/
         .portfolio.grid article figcaption {
 
         }
+
+        .square-img{
+            object-fit: cover;
+            aspect-ratio: 1/1;
+            }
+
+
         .portfolio.grid article .overlay {
             position: absolute;
             top: 50%;
             left: 50%;
-            padding: 5% 15px;
+            padding: 5% px;
             width: 55%;
             max-width: 250px;
             z-index: 2;
@@ -2238,7 +2255,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             display: block;
             float: left;
             text-align: center;
-            padding: 25px;
+            padding: 10px;
         }
         .gallery.grid.low-space figure {
             padding: 10px;
@@ -2577,7 +2594,7 @@ Author URL: https://themeforest.net/user/codesymbol/
         }
         .page-about-me.small .wrapper {
             position: absolute;
-            top: 80%;
+            top: 50%;
             left: 50%;
             width: 1100px;
             padding: 25px 25px 25px 75px;
