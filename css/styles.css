@@ -3130,6 +3130,10 @@ Author URL: https://themeforest.net/user/codesymbol/
 
             }
 
+            .blog-single .blog-text {
+                margin: 5%
+            }
+
         /* Tags */
             .blog-single .content .tags {
                 font-size: 0;
